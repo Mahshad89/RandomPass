@@ -27,4 +27,8 @@ Run the script by executing the following command:``` python password_generator.
  ## Example Usage 
 1. Run the script using `python password_generator.py`. 
 2. Choose your desired password length and character types. 
-3. Save the generated password to a file if needed. 
+3. Save the generated password to a file if needed.
+
+## 1. Git -----> 
+##### Using and understanding Git! Play with Branches and undo/revert things
+From this link, you can see the history of my undoing/reverting
