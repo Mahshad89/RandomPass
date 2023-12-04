@@ -11,7 +11,7 @@ Includes a variety of character types, such as uppercase letters, lowercase lett
 Easily configurable to meet your specific password requirements. 
 Provides the option to save generated passwords to a text file for future reference.
 
- ## Getting Started 
+## Getting Started 
 Clone or download the repository to your local machine. 
 Make sure you have Python installed on your system (Python 3). 
 Open a terminal or command prompt and navigate to the project directory. 
@@ -25,6 +25,10 @@ Run the script by executing the following command:``` python password_generator.
  stored for future reference. 
 
  ## Example Usage 
-1. Run the script using `python password_generator.py`. 
-2. Choose your desired password length and character types. 
-3. Save the generated password to a file if needed. 
+ 1. Run the script using `python password_generator.py`. 
+ 2. Choose your desired password length and character types. 
+ 3. Save the generated password to a file if needed.
+
+ ## Git 
+ Using and understanding Git! Play with Branches and undo/revert things
+ From this link, you can see the history of my undoing/reverting   
