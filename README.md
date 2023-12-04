@@ -31,5 +31,5 @@ Run the script by executing the following command:``` python password_generator.
 
  ## Git 
  Using and understanding Git! Play with Branches and undo/revert things
- From this link, you can see the history of my undoing/reverting
+ From this link, https://github.com/Mahshad89/RandomPass/commits/main/RPG you can see the history of my undoing/reverting
  From this link, https://github.com/Mahshad89/RandomPass/blob/Mahshad89-patch-1/RPG you can see my other branch
