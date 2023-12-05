@@ -89,8 +89,8 @@ def main():
         elif choice == 2:
             num_passphrases = int(input("Enter the number of passphrases to generate: "))
             num_words = int(input("Enter the number of words per passphrase: "))
-            delimiter = input("Enter the word delimiter (default is space): ")
-            delimiter = delimiter if delimiter else ' '
+            delimiter = input("Enter the word delimiter (default is space): ") or ' '
+            
             
             passphrases = [generate_passphrase(word_list, num_words, delimiter) for _ in range(num_passphrases)]
             for passphrase in passphrases:
