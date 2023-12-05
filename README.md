@@ -44,9 +44,27 @@ Run the script by executing the following command:``` python password_generator.
 
  From this link, https://github.com/Mahshad89/RandomPass/blob/main/UML/UseCaseDiagram.png you can see the Use Case Diagram.
 
- ## Clean Code Development
+ ## Requirements Engineering
+ in progress......
 
- 
+ ## Analysis
+ in progress......
+
+ ## DDD
+ in progress......
+
+ ## Clean Code Development
+ CCD principles could include Error handling, variable naming, user interaction, function decomposition, better commenting, and documentation. trying to code would be functional, but applying some clean coding principles could make it even more understandable and robust.
+
+ From this link, https://github.com/Mahshad89/RandomPass/tree/5037f3217ece19661ce892940464ec7497b64e37/CCD you can see why this is clean code in your code and/or what has improved.
+
+ Creating a PDF version and cheat sheet is in progress...
+
+ ## Build
+in progress...
+
+ ## UnitTests
+ in progress...
 
  ## Choosing IDE
  Choose one IDE that best aligns with your project requirements, as well as your preferences, and needs. I use Visual Studio Code (VSCode), which is the best lightweight text editor for me since it has lots of useable Python extensions.
@@ -57,5 +75,8 @@ Run the script by executing the following command:``` python password_generator.
   `F5`                Start Debugging.
   `Ctrl + Shift + P`  open command palette.
   `Ctrl + D`          Select the next occurrence
+
+  ## Functional Programming
+  in progress...
  
  
