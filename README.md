@@ -31,8 +31,7 @@ Run the script by executing the following command:``` python password_generator.
  ## Git 
  Using and understanding Git! Play with Branches and undo/revert things.
  
- From this link, https://github.com/Mahshad89/RandomPass/commits/main you can see the history of my committed actions.
- From this link, https://github.com/Mahshad89/RandomPass/blob/Mahshad89-patch-1/RPG you can see my other branch.
+ From this link, https://github.com/Mahshad89/RandomPass/commits/main you can see the history of my committed actions.                                                         From this link, https://github.com/Mahshad89/RandomPass/blob/Mahshad89-patch-1/RPG you can see my other branch.
 
  ## UML
  Drawing 3 big and good diagrams.
