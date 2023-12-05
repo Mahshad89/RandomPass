@@ -3,6 +3,9 @@ import string
 import math
 import secrets
 
+PASSWORD_LENGTH_DEFAULT = 12
+SAVE_FILE_DEFAULT = "passwords.txt"
+
 def generate_password(length=12, use_upper=True, use_digits=True, use_special=True, pronounceable=False, entropy=None):
     if pronounceable:
         return generate_pronounceable_password(length)
