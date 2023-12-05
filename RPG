@@ -64,10 +64,10 @@ def main():
         
         if choice == 1:
             num_passwords = int(input("Enter the number of passwords to generate: "))
-            length = int(input("Enter the length of the password: "))
-            use_upper = input("Include uppercase letters? (y/n): ").strip().lower() == 'y'
-            use_digits = input("Include digits? (y/n): ").strip().lower() == 'y'
-            use_special = input("Include special characters? (y/n): ").strip().lower() == 'y'
+            length = int(input(f"Enter the length of the password (default is {PASSWORD_LENGTH_DEFAULT}): ") or PASSWORD_LENGTH_DEFAULT)
+            use_upper = input("Include uppercase letters? (y/n): ").strip().lower() in ('y', 'yes')
+            use_digits = input("Include digits? (y/n): ").strip().lower() in ('y', 'yes')
+            use_special = input("Include special characters? (y/n): ").strip().lower() in ('y', 'yes')
             entropy = float(input("Specify password entropy (optional): ") or 0)
             
             passwords = []
