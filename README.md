@@ -48,10 +48,10 @@ Run the script by executing the following command:``` python password_generator.
  Choose one IDE that best aligns with your project requirements, as well as your preferences, and needs. I use Visual Studio Code (VSCode), which is the best lightweight text editor for me since it has lots of useable Python extensions.
 
  Here are the lists of key shortcuts that I usually use:
- . `Ctrl + /`          Comment or uncomment selected lines.
- . `Ctrl + Space`      Code completion.
- . `F5`                Start Debugging.
- . `Ctrl + Shift + P`  open command palette.
- . `Ctrl + D`          Select next occurrence
+  `Ctrl + /`          Comment or uncomment selected lines.
+  `Ctrl + Space`      Code completion.
+  `F5`                Start Debugging.
+  `Ctrl + Shift + P`  open command palette.
+  `Ctrl + D`          Select the next occurrence
  
  
