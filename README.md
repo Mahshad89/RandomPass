@@ -44,6 +44,10 @@ Run the script by executing the following command:``` python password_generator.
 
  From this link, https://github.com/Mahshad89/RandomPass/blob/main/UML/UseCaseDiagram.png you can see the Use Case Diagram.
 
+ ## Clean Code Development
+
+ 
+
  ## Choosing IDE
  Choose one IDE that best aligns with your project requirements, as well as your preferences, and needs. I use Visual Studio Code (VSCode), which is the best lightweight text editor for me since it has lots of useable Python extensions.
 
