@@ -39,4 +39,6 @@ Run the script by executing the following command:``` python password_generator.
  From this link, https://github.com/Mahshad89/RandomPass/blob/main/UML/ActivityDiagram.png you can see the Activity Diagram.
 
  From this link, https://github.com/Mahshad89/RandomPass/blob/main/UML/ClassDiagram.png you can see the Class Diagram.
+
+ From this link, https://github.com/Mahshad89/RandomPass/blob/main/UML/UseCaseDiagram.png you can see the Use Case Diagram.
  
