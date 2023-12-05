@@ -3,7 +3,10 @@ import string
 import math
 import secrets
 
-def generate_password(length=12, use_upper=True, use_digits=True, use_special=True, pronounceable=False, entropy=None):
+PASSWORD_LENGTH_DEFAULT = 12
+SAVE_FILE_DEFAULT = "passwords.txt"
+
+def generate_password(length=PASSWORD_LENGTH_DEFAULT, use_upper=True, use_digits=True, use_special=True, pronounceable=False, entropy=None):
     if pronounceable:
         return generate_pronounceable_password(length)
     
@@ -29,36 +32,22 @@ def generate_pronounceable_password(length):
     password = ''
 
     for i in range(length):
-        if i % 2 == 0:
-            password += random.choice(consonants)
-        else:
-            password += random.choice(vowels)
+        password += random.choice(consonants) if i % 2 == 0 else random.choice(vowels)
 
     return password
 
 def check_password_strength(password):
-    upper_case_letters = any(char.isupper() for char in password)
-    lower_case_letters = any(char.islower() for char in password)
-    has_digits = any(char.isdigit() for char in password)
-    special_characters = any(char in string.punctuation for char in password)
-    
-    score = 0
-    if upper_case_letters:
-        score += 1
-    if lower_case_letters:
-        score += 1
-    if has_digits:
-        score += 1
-    if special_characters:
-        score += 1
-    
-    return score
+    criteria = [any(char.isupper() for char in password),
+                any(char.islower() for char in password),
+                any(char.isdigit() for char in password),
+                any(char in string.punctuation for char in password)]
+
+    return sum(criteria)
 
 def generate_passphrase(word_list, num_words=4, delimiter=' '):
-    passphrase = [random.choice(word_list) for _ in range(num_words)]
-    return delimiter.join(passphrase)
+    return delimiter.join(random.choice(word_list) for _ in range(num_words))
 
-def save_passwords_to_file(passwords, filename="passwords.txt"):
+def save_passwords_to_file(passwords, filename=SAVE_FILE_DEFAULT):
     with open(filename, "a") as file:
         for password in passwords:
             file.write(password + "\n")
@@ -74,10 +63,10 @@ def main():
         
         if choice == 1:
             num_passwords = int(input("Enter the number of passwords to generate: "))
-            length = int(input("Enter the length of the password: "))
-            use_upper = input("Include uppercase letters? (y/n): ").strip().lower() == 'y'
-            use_digits = input("Include digits? (y/n): ").strip().lower() == 'y'
-            use_special = input("Include special characters? (y/n): ").strip().lower() == 'y'
+            length = int(input(f"Enter the length of the password (default is {PASSWORD_LENGTH_DEFAULT}): ") or PASSWORD_LENGTH_DEFAULT)
+            use_upper = input("Include uppercase letters? (y/n): ").strip().lower() in ('y', 'yes')
+            use_digits = input("Include digits? (y/n): ").strip().lower() in ('y', 'yes')
+            use_special = input("Include special characters? (y/n): ").strip().lower() in ('y', 'yes')
             entropy = float(input("Specify password entropy (optional): ") or 0)
             
             passwords = []
@@ -91,16 +80,15 @@ def main():
                 except ValueError as e:
                     print(f"Error: {e}")
 
-            save_to_file = input("Save passwords to a file? (y/n): ").strip().lower()
+            save_to_file = input(f"Save passwords to a file? (y/n, default is 'n'): ").strip().lower()
             if save_to_file == 'y':
                 save_passwords_to_file(passwords)
-                print(f"Passwords saved to 'passwords.txt")
+                print(f"Passwords saved to '{SAVE_FILE_DEFAULT}'")
 
         elif choice == 2:
             num_passphrases = int(input("Enter the number of passphrases to generate: "))
             num_words = int(input("Enter the number of words per passphrase: "))
-            delimiter = input("Enter the word delimiter (default is space): ")
-            delimiter = delimiter if delimiter else ' '
+            delimiter = input("Enter the word delimiter (default is space): ") or ' '
             
             passphrases = [generate_passphrase(word_list, num_words, delimiter) for _ in range(num_passphrases)]
             for passphrase in passphrases:
