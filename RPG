@@ -6,7 +6,7 @@ import secrets
 PASSWORD_LENGTH_DEFAULT = 12
 SAVE_FILE_DEFAULT = "passwords.txt"
 
-def generate_password(length=12, use_upper=True, use_digits=True, use_special=True, pronounceable=False, entropy=None):
+def generate_password(length=PASSWORD_LENGTH_DEFAULT, use_upper=True, use_digits=True, use_special=True, pronounceable=False, entropy=None):
     if pronounceable:
         return generate_pronounceable_password(length)
     
@@ -32,30 +32,17 @@ def generate_pronounceable_password(length):
     password = ''
 
     for i in range(length):
-        if i % 2 == 0:
-            password += random.choice(consonants)
-        else:
-            password += random.choice(vowels)
+        password += random.choice(consonants) if i % 2 == 0 else random.choice(vowels)
 
     return password
 
 def check_password_strength(password):
-    upper_case_letters = any(char.isupper() for char in password)
-    lower_case_letters = any(char.islower() for char in password)
-    has_digits = any(char.isdigit() for char in password)
-    special_characters = any(char in string.punctuation for char in password)
-    
-    score = 0
-    if upper_case_letters:
-        score += 1
-    if lower_case_letters:
-        score += 1
-    if has_digits:
-        score += 1
-    if special_characters:
-        score += 1
-    
-    return score
+   criteria = [any(char.isupper() for char in password),
+                any(char.islower() for char in password),
+                any(char.isdigit() for char in password),
+                any(char in string.punctuation for char in password)]
+
+    return sum(criteria)
 
 def generate_passphrase(word_list, num_words=4, delimiter=' '):
     passphrase = [random.choice(word_list) for _ in range(num_words)]
