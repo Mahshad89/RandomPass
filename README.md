@@ -61,7 +61,8 @@ Run the script by executing the following command:``` python password_generator.
  Creating a PDF version and cheat sheet is in progress...
 
  ## Build
-For my build management, I have chosen `Ssetuptools`, which is a common tool for packaging and distributing Python projects. It includes facilities for managing dependencies, versioning, and creating distribution packages.
+For my build management, I have chosen `setuptools`, which is a common tool for packaging and distributing Python projects. It includes facilities for managing dependencies, versioning, and creating distribution packages.
+From this link, you can see how I install and use `setuptools` for my project.
 
  ## UnitTests
  in progress...
