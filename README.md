@@ -60,7 +60,7 @@ Run the script by executing the following command:``` python password_generator.
 
  Creating a PDF version and cheat sheet is in progress...
 
- ## Build
+ ## Build Management
 For my build management, I have chosen `setuptools`, which is a common tool for packaging and distributing Python projects. It includes facilities for managing dependencies, versioning, and creating distribution packages.
 From this link, https://github.com/Mahshad89/RandomPass/blob/main/BUILD/BUILD.md you can see how I install and use `setuptools` for my project.
 
