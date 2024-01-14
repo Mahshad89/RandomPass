@@ -52,8 +52,8 @@ Run the script by executing the following command:``` python password_generator.
 
  ## DDD
  Do a DDD session to find your domains.
- A) visual Event Storming.
- B) Core Domain Chart.
+ A) visual Event Storming. 
+ B) Core Domain Chart. 
  C) Relations between the Domains.
  
 
