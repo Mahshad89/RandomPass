@@ -51,7 +51,11 @@ Run the script by executing the following command:``` python password_generator.
  in progress......
 
  ## DDD
- in progress......
+ Do a DDD session to find your domains.
+ A) visual Event Storming.
+ B) Core Domain Chart.
+  C) Relations between the Domains.
+ 
 
  ## Clean Code Development
  CCD principles could include Error handling, variable naming, user interaction, function decomposition, better commenting, and documentation. trying to code would be functional, but applying some clean coding principles could make it even more understandable and robust.
