@@ -58,7 +58,8 @@ Run the script by executing the following command:``` python password_generator.
  B) From this link, https://github.com/Mahshad89/RandomPass/blob/main/DDD/CoreDomainChart.png you can see the core domain chart. 
  
  C) From this link, https://github.com/Mahshad89/RandomPass/blob/main/DDD/DomainRelations.png  you can see relations between the domains.
- 
+
+ ## Metrics
 
  ## Clean Code Development
  CCD principles could include Error handling, variable naming, user interaction, function decomposition, better commenting, and documentation. trying to code would be functional, but applying some clean coding principles could make it even more understandable and robust.
