@@ -62,7 +62,7 @@ Run the script by executing the following command:``` python password_generator.
  ## Metrics
  Using Sonarcube.
 
- Maintainability, Reliability, Security, Duplications, Number of bugs, Number of code smells, number of vulnerabilities is shown.
+ Maintainability, Reliability, Security, Duplications, Number of bugs, Number of code smells, and number of vulnerabilities are shown.
 
  From this link, https://github.com/Mahshad89/RandomPass/blob/main/METRICS/METRICS.pdf you can see the results.
 
