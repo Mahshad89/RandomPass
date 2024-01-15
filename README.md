@@ -53,11 +53,11 @@ Run the script by executing the following command:``` python password_generator.
  ## DDD
  Do a DDD session to find your domains. From this link, you can see DDD charts.
  
- A) visual Event Storming. From this link, https://github.com/Mahshad89/RandomPass/blob/main/DDD/EventStorming.png you can see event storming.
+ A) From this link, https://github.com/Mahshad89/RandomPass/blob/main/DDD/EventStorming.png you can see visual event storming.
  
- B) Core Domain Chart. 
+ B) From this link, https://github.com/Mahshad89/RandomPass/blob/main/DDD/DomainRelations.png you can see the core domain chart. 
  
- C) Relations between the Domains.
+ C) From this link,  you can see relations between the domains.
  
 
  ## Clean Code Development
