@@ -1,1 +1,0 @@
-![Maintainability](METRICS/Maintainability.png)
