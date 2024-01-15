@@ -62,6 +62,8 @@ Run the script by executing the following command:``` python password_generator.
  ## Metrics
  Using Sonarcube.
 
+ From this link, you can see the results.
+
  ## Clean Code Development
  CCD principles could include Error handling, variable naming, user interaction, function decomposition, better commenting, and documentation. trying to code would be functional, but applying some clean coding principles could make it even more understandable and robust.
 
