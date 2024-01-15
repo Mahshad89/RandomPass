@@ -57,7 +57,7 @@ Run the script by executing the following command:``` python password_generator.
  
  B) From this link, https://github.com/Mahshad89/RandomPass/blob/main/DDD/DomainRelations.png you can see the core domain chart. 
  
- C) From this link,  you can see relations between the domains.
+ C) From this link, https://github.com/Mahshad89/RandomPass/blob/main/DDD/DomainRelations.png  you can see relations between the domains.
  
 
  ## Clean Code Development
