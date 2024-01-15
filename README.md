@@ -60,6 +60,7 @@ Run the script by executing the following command:``` python password_generator.
  C) From this link, https://github.com/Mahshad89/RandomPass/blob/main/DDD/DomainRelations.png  you can see relations between the domains.
 
  ## Metrics
+ Using Sonarcloud.
 
  ## Clean Code Development
  CCD principles could include Error handling, variable naming, user interaction, function decomposition, better commenting, and documentation. trying to code would be functional, but applying some clean coding principles could make it even more understandable and robust.
