@@ -1,1 +1,1 @@
-![Maintainability](Maintainability.png)
+[Maintainability](Maintainability.png)
