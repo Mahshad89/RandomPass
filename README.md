@@ -5,7 +5,7 @@
  This project was inspired by the need for stronger and more secure passwords in today's digital world. It is a simple and effective way to enhance your overall online security posture. In summary, strong passwords act as a crucial barrier to protecting your personal and financial information, preventing identity theft, and maintaining your privacy in an increasingly digital and interconnected world.
 
 ## Features 
-Generates random passwords with customizable length. 
+Generates random passwords with customizable length.  
 Includes a variety of character types, such as uppercase letters, lowercase letters, numbers, and special symbols. 
 Easily configurable to meet your specific password requirements. 
 Provides the option to save generated passwords to a text file for future reference.
