@@ -36,8 +36,8 @@ From this link, https://github.com/Mahshad89/RandomPass/blob/main/REQUIREMENTSEN
 From this link, https://github.com/Mahshad89/RandomPass/blob/main/REQUIREMENTSENG/Requirements%20EngineeringByJIRA.pdf you can see visually my RPG project as a software requirements project by `JIRA`.
 
  ## Analysis
-From this link, you can find my checklist with the points that I consider relevant to my project. 
-From this link, you can find my project analysis as a start-up idea.
+From this link, https://github.com/Mahshad89/RandomPass/blob/main/ANALYSIS/ProjectChecklist.pdf you can find my checklist with the points that I consider relevant to my project. 
+From this link, https://github.com/Mahshad89/RandomPass/blob/main/ANALYSIS/ProjectAnalysis.pdf you can find my project analysis as a start-up idea.
 
  ## DDD
  Do a DDD session to find your domains. From this link, you can see DDD charts.
