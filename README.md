@@ -51,7 +51,7 @@ From this link, https://ludicrous-hydrant-b02.notion.site/Random-Password-Genera
 
 From this link, https://github.com/Mahshad89/RandomPass/blob/main/REQUIREMENTSENG/RequirementsEngineeringByNotion.pdf you can find the PDF version which is exported from `notion`.
 
-From this link, https://github.com/Mahshad89/RandomPass/blob/main/REQUIREMENTSENG/Requirements%20EngineeringByJIRA.pdf you can see visually my RPG project as a software requirements project by JIRA.
+From this link, https://github.com/Mahshad89/RandomPass/blob/main/REQUIREMENTSENG/Requirements%20EngineeringByJIRA.pdf you can see visually my RPG project as a software requirements project by `JIRA`.
 
  ## Analysis
  in progress......
