@@ -45,17 +45,13 @@ Run the script by executing the following command:``` python password_generator.
  From this link, https://github.com/Mahshad89/RandomPass/blob/main/UML/UseCaseDiagram.png you can see the Use Case Diagram.
 
  ## Requirements Engineering
-To describe my project using the methods of Requirements Engineering, I used `notion.so` for the self-made version.
+For managing software requirements for my project, I used `notion.so` as a self-made tool and `JIRA` as a professional tool.
 
 From this link, https://ludicrous-hydrant-b02.notion.site/Random-Password-Generator-RPG-e0f37a34e2a74e27bb3fd445d6d7f9a3?pvs=4  you can see my published website by `notion`.
 
 From this link, https://github.com/Mahshad89/RandomPass/blob/main/REQUIREMENTSENG/RequirementsEngineering.pdf you can find the PDF version which is exported from `notion`.
 
-I used `notion.so` for the professional version.
-
-From this link, you can see
-
-From this link, you can find.
+From this link,  you can see visually my RPG project as a software requirements project.
 
  ## Analysis
  in progress......
