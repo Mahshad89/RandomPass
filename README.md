@@ -5,28 +5,10 @@
  This project was inspired by the need for stronger and more secure passwords in today's digital world. It is a simple and effective way to enhance your overall online security posture. In summary, strong passwords act as a crucial barrier to protecting your personal and financial information, preventing identity theft, and maintaining your privacy in an increasingly digital and interconnected world.
 
 ## Features 
-Generates random passwords with customizable length.  
+Generates random passwords or passphrases with customizable length.  
 Includes a variety of character types, such as uppercase letters, lowercase letters, numbers, and special symbols. 
-Easily configurable to meet your specific password requirements. 
-Provides the option to save generated passwords to a text file for future reference.
-
-## Getting Started 
-Clone or download the repository to your local machine. 
-Make sure you have Python installed on your system (Python 3). 
-Open a terminal or command prompt and navigate to the project directory. 
-Run the script by executing the following command:``` python password_generator.py ```
-
- ## Configuration 
- You can customize the password generation by modifying the `password_generator.py` script. The following parameters can be adjusted:
- `password_length`: Set the desired length of the generated password.
- `use_uppercase`, `use_lowercase`, `use_digits`, and `use_special_chars`: Toggle these variables to include or exclude character types in the generated password. 
- Saving Passwords: You can choose to save generated passwords to a text file for easy access. Simply provide a filename when prompted, and your passwords will be 
- stored for future reference. 
-
- ## Example Usage 
- 1. Run the script using `python password_generator.py`. 
- 2. Choose your desired password length and character types. 
- 3. Save the generated password to a file if needed.
+Easily configurable to meet your specific password or passphrase requirements. 
+Provides the option to save generated passwords or passphrases to a text file for future reference.
 
  ## Git 
  Using and understanding Git! Play with Branches and undo/revert things.
