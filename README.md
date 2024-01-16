@@ -51,6 +51,12 @@ From this link, https://ludicrous-hydrant-b02.notion.site/Random-Password-Genera
 
 From this link, https://github.com/Mahshad89/RandomPass/blob/main/REQUIREMENTSENG/RequirementsEngineering.pdf you can find the PDF version which is exported from `notion`.
 
+I used `notion.so` for the professional version.
+
+From this link, you can see
+
+From this link, you can find.
+
  ## Analysis
  in progress......
 
