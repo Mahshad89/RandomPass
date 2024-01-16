@@ -49,9 +49,9 @@ For managing software requirements for my project, I used `notion.so` as a self-
 
 From this link, https://ludicrous-hydrant-b02.notion.site/Random-Password-Generator-RPG-e0f37a34e2a74e27bb3fd445d6d7f9a3?pvs=4  you can see my published website by `notion`.
 
-From this link, https://github.com/Mahshad89/RandomPass/blob/main/REQUIREMENTSENG/RequirementsEngineering.pdf you can find the PDF version which is exported from `notion`.
+From this link, https://github.com/Mahshad89/RandomPass/blob/main/REQUIREMENTSENG/RequirementsEngineeringByNotion.pdf you can find the PDF version which is exported from `notion`.
 
-From this link,  you can see visually my RPG project as a software requirements project.
+From this link, https://github.com/Mahshad89/RandomPass/blob/main/REQUIREMENTSENG/Requirements%20EngineeringByJIRA.pdf you can see visually my RPG project as a software requirements project by JIRA.
 
  ## Analysis
  in progress......
