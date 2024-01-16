@@ -47,7 +47,7 @@ Run the script by executing the following command:``` python password_generator.
  ## Requirements Engineering
 To describe my project using the methods of Requirements Engineering, I used `notion.so` for the self-made version.
 
-From this link, https://ludicrous-hydrant-b02.notion.site/Random-Password-Generator-RPG-e0f37a34e2a74e27bb3fd445d6d7f9a3?pvs=4 you can see my published website.
+From this link, https://ludicrous-hydrant-b02.notion.site/Random-Password-Generator-RPG-e0f37a34e2a74e27bb3fd445d6d7f9a3?pvs=4  you can see my published website.
 
 From this link, https://github.com/Mahshad89/RandomPass/blob/main/REQUIREMENTSENG/RequirementsEngineering.pdf you can find the PDF version.
 
