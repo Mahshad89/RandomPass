@@ -60,7 +60,7 @@ From this link, https://github.com/Mahshad89/RandomPass/blob/main/ANALYSIS/Proje
 
  From this link, https://github.com/Mahshad89/RandomPass/blob/main/CCD/CCD.md you can see why this is clean code in your code and/or what has improved.
 
- Creating a PDF version and cheat sheet is in progress...
+ From this link, https://github.com/Mahshad89/RandomPass/blob/main/CCD/CleanCodeCheatSheet.pdf you can see the cheatsheet for Clean Code Development.
 
  ## Build Management
 For my build management, I have chosen `setuptools`, which is a common tool for packaging and distributing Python projects. It includes facilities for managing dependencies, versioning, and creating distribution packages.
