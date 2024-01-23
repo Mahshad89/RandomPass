@@ -60,6 +60,8 @@ From this link, https://github.com/Mahshad89/RandomPass/blob/main/ANALYSIS/Proje
 
  From this link, https://github.com/Mahshad89/RandomPass/blob/main/CCD/CCD.md you can see why this is clean code in your code and/or what has improved.
 
+ From this link, https://github.com/Mahshad89/RandomPass/blob/main/CCD/CleanCodeDevelopment.pdf you can see pdf version of CCD in my project.
+
  From this link, https://github.com/Mahshad89/RandomPass/blob/main/CCD/CleanCodeCheatSheet.pdf you can see the cheatsheet for Clean Code Development.
 
  ## Build Management
