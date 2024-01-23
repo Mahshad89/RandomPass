@@ -72,6 +72,10 @@ From this link, https://github.com/Mahshad89/RandomPass/blob/main/BUILD/BUILD.md
  I've created test cases for each of the functions in the script using the `unit test` framework. The tests cover various scenarios, including default cases, custom configurations, and error handling.
  From this link, https://github.com/Mahshad89/RandomPass/blob/main/UnitTests/UnitTest.pdf you can see the results of running 6 unit tests in my code.
 
+ To integrate my unit tests into the build process, I use a CI tool to automate the process of building, testing, and deploying my code. One popular CI service is `GitHub Actions`, which is tightly integrated with GitHub repositories.
+
+ 
+
  ## Choosing IDE
  Choose one IDE that best aligns with your project requirements, as well as your preferences, and needs. I use Visual Studio Code (VSCode), which is the best lightweight text editor for me since it has lots of useable Python extensions.
 
