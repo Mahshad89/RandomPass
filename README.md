@@ -89,6 +89,18 @@ From this link, https://github.com/Mahshad89/RandomPass/blob/main/BUILD/BUILD.md
   `Ctrl + D`          Select the next occurrence
 
   ## Functional Programming
-  in progress...
+   To prove that I have covered all functional aspects of my code which is listed below, you can see this link.
+   
+   1. Only final data structures.
+   
+   2. Side-effect-free functions.
+   
+   3. The use of higher-order functions.
+   
+   4. Functions as parameters and return values.
+   5. Use closures / anonymous functions
+
+   
+
  
  
