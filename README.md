@@ -60,7 +60,7 @@ From this link, https://github.com/Mahshad89/RandomPass/blob/main/ANALYSIS/Proje
 
  From this link, https://github.com/Mahshad89/RandomPass/blob/main/CCD/CCD.md you can see why this is clean code in your code and/or what has improved.
 
- From this link, https://github.com/Mahshad89/RandomPass/blob/main/CCD/CleanCodeDevelopment.pdf you can see pdf version of CCD in my project.
+ From this link, https://github.com/Mahshad89/RandomPass/blob/main/CCD/CleanCodeDevelopment.pdf you can see the pdf version of CCD in my project.
 
  From this link, https://github.com/Mahshad89/RandomPass/blob/main/CCD/CleanCodeCheatSheet.pdf you can see the cheatsheet for Clean Code Development.
 
@@ -73,6 +73,8 @@ From this link, https://github.com/Mahshad89/RandomPass/blob/main/BUILD/BUILD.md
  From this link, https://github.com/Mahshad89/RandomPass/blob/main/UnitTests/UnitTest.pdf you can see the results of running 6 unit tests in my code.
 
  To integrate my unit tests into the build process, I use a CI tool to automate the process of building, testing, and deploying my code. One popular CI service is `GitHub Actions`, which is tightly integrated with `GitHub Repositories.
+
+ From this link, you can see which steps I took to integrate unit tests using `GitHub Actions`.
 
  
 
