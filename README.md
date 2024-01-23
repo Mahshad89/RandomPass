@@ -69,7 +69,8 @@ For my build management, I have chosen `setuptools`, which is a common tool for 
 From this link, https://github.com/Mahshad89/RandomPass/blob/main/BUILD/BUILD.md you can see how I install and use `setuptools` for my project.
 
  ## UnitTests
- in progress...
+ I've created test cases for each of the functions in the script using the `unit test` framework. The tests cover various scenarios, including default cases, custom configurations, and error handling.
+ From this link, https://github.com/Mahshad89/RandomPass/blob/main/UnitTests/UnitTest.pdf you can see the results of running 6 unit tests in my code.
 
  ## Choosing IDE
  Choose one IDE that best aligns with your project requirements, as well as your preferences, and needs. I use Visual Studio Code (VSCode), which is the best lightweight text editor for me since it has lots of useable Python extensions.
