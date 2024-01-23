@@ -60,7 +60,7 @@ From this link, https://github.com/Mahshad89/RandomPass/blob/main/ANALYSIS/Proje
  ## Clean Code Development
  CCD principles could include Error handling, variable naming, user interaction, function decomposition, better commenting, and documentation. trying to code would be functional, but applying some clean coding principles could make it even more understandable and robust.
 
- From this link, https://github.com/Mahshad89/RandomPass/blob/main/CCD/CCD.md you can see why this is clean code in your code and/or what has improved.
+ From this link, https://github.com/Mahshad89/RandomPass/blob/main/CCD/CCD.md you can see why this is clean code in my code and/or what has improved.
 
  From this link, https://github.com/Mahshad89/RandomPass/blob/main/CCD/CleanCodeDevelopment.pdf you can see the pdf version of CCD in my project.
 
